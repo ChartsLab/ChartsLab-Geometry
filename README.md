@@ -9,7 +9,7 @@ You can install this micro-library by download the latest version or by download
 <script src="./Geometry.js"></script>
 ```
 
-# Requires
+## Requires
 This micro-library requires [Scales](https://github.com/ChartsLab/) for data encoding and you can use [Stat](https://github.com/ChartsLab/) or/and [Filter](https://github.com/ChartsLab/) for easy and simple data entry
 
 
