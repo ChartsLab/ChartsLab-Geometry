@@ -1,6 +1,6 @@
 # ChartsLab-Geometry
 
-Visualizations typically consist of discrete graphical Geometries, such as [symbols](#symbols), [arcs](#arcs), [lines](#lines) and [areas](#areas), [bars](#bar), [pie](#pie). This module provides a variety of shape generators for your convenience, and easy to use in *HTML5_Canvas*
+Visualizations typically consist of discrete graphical Geometries, such as [symbols](#symbols), [arcs](#arcs), [lines](#lines) and [areas](#areas), [bars](#bar), [pie](#pie). This module provides a variety of shape generators for your convenience, and easy to use in **HTML5_Canvas**
 
 ## Install
 You can install this micro-library by download the latest version or by downloading the full bundle [ChartsLab](https://github.com/ChartsLab/) library.
