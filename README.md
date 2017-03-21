@@ -29,32 +29,32 @@ var line = Geometry.Line
 * [Arcs](#arcs)
 * [Areas](#areas)
 * [Bars](#bars)
-Bars(Intervals) is one of common-used plots and primitives in data visualization. And here in chartsLab we simplified bars in some API easy to use functions that you can control the plot with it.
+  Bars(Intervals) is one of common-used plots and primitives in data visualization. And here in chartsLab we simplified bars in some API easy to use functions that you can control the plot with it.
 
-**Requires** Scale For data Scaling and mapping, and maybe data-filter for easy to invoke datasets
+  **Requires** Scale For data Scaling and mapping, and maybe data-filter for easy to invoke datasets
 
-```js
-      Geometry.Bar.
-              .xScale(x)
-              .yScale(y)
-              .xVector(xVec)
-              .yVector(yVec)
-              .Draw(ctx);
-```
+  ```js
+        Geometry.Bar.
+                .xScale(x)
+                .yScale(y)
+                .xVector(xVec)
+                .yVector(yVec)
+                .Draw(ctx);
+  ```
 
-<a name="Draw" href="#draw">#</a> Bar.<b>Draw</b>(<i> ctx **Context**</i>)
+  <a name="Draw" href="#draw">#</a> Bar.<b>Draw</b>(<i> ctx **Context**</i>)
 
-<a name="Size" href="#size">#</a> Bar.<b>Size</b>(<i>Size Integer</i>)
+  <a name="Size" href="#size">#</a> Bar.<b>Size</b>(<i>Size Integer</i>)
 
-<a name="Position" href="#position">#</a> Bar.<b>Position</b>(<i>[StartPoint Array], [EndPoint Array]</i>)
+  <a name="Position" href="#position">#</a> Bar.<b>Position</b>(<i>[StartPoint Array], [EndPoint Array]</i>)
 
-<a name="xScale" href="#xscale">#</a> Bar.<b>xScale</b>(<i>Scale</i>)
+  <a name="xScale" href="#xscale">#</a> Bar.<b>xScale</b>(<i>Scale</i>)
 
-<a name="yScale" href="#yscale">#</a> Bar.<b>yScale</b>(<i>Scale</i>)
+  <a name="yScale" href="#yscale">#</a> Bar.<b>yScale</b>(<i>Scale</i>)
 
-<a name="xVector" href="#xvector">#</a> Bar.<b>xVector</b>(<i>Vector</i>)
+  <a name="xVector" href="#xvector">#</a> Bar.<b>xVector</b>(<i>Vector</i>)
 
-<a name="yVector" href="#yvector">#</a> Bar.<b>yVector</b>(<i>Vector</i>)
+  <a name="yVector" href="#yvector">#</a> Bar.<b>yVector</b>(<i>Vector</i>)
 
 * [Curves](#curves)
 * [Custom Curves](#custom-curves)
