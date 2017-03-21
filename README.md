@@ -43,12 +43,15 @@ var line = Geometry.Line
   ```
 
   <a name="Draw" href="#draw">#</a> Bar.<b>Draw</b>(<i> ctx **Context**</i>)
+  
       This function takes canvas context and be ready for drawing in it, you maybe prepare canvas before use see [ChartCore](https://github.com/ChartsLab/) for more details. **Warn** you can't give this function any thing except canvas context or you will have raise an error for more details about errors see [ErrorHandler](https://github.com/ChartsLab/).
     
   <a name="Size" href="#size">#</a> Bar.<b>Size</b>(<i>Size **Integer**</i>)
+  
       Size Take an Integer Positive value for all Bars sizes(width), you can customize it be a column histogram see [Column](#column)
   
   <a name="Position" href="#position">#</a> Bar.<b>Position</b>(<i>[StartPoint **Array**], [EndPoint **Array**]</i>)
+  
       Position Take 2 Array each contain 2 value for start and end coordinates, you can control the position of start you Bar chart from here (But not the axis see [Axis](https://github.com/ChartsLab/ChartsLab-Axis/))
   
   <a name="xScale" href="#xscale">#</a> Bar.<b>xScale</b>(<i>y **Scale**</i>)
