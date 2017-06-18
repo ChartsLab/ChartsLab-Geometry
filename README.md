@@ -27,12 +27,37 @@ var line = Geometry.Line
 ## API Reference
 
 * [Arcs](#arcs)
+
+  Arc is the general shape/geometry naming of many plotting shapes like pie, daunat, coxcomb charts and these shapes are popular in data analysis and business intellegence work. And here in chartsLab we simplified bars in some API easy to use functions that you can control the plot with it.
+
+  **Requires** Scale For data Scaling and mapping, and maybe data-filter for easy to invoke datasets.
+  
+  ```js
+        Geo.Arc()
+            .Position([200,200])
+            .Frequency(100)
+            .Values([30,30,30,10])
+            .Colors(['red','blue','green','yellow'])
+            .Radius([50,70,20,100])
+            .InnerRadius(0)
+            .Centeroid(function (ctx, start, end, perc) {
+                ctx.fillStyle = "#000000";
+                ctx.fillText( perc,end[0], end[1]);
+            })
+            .Draw(context);
+  ```
+  
+  <a name="Draw" href="#draw">#</a> Arc.<b>Draw</b>(<i> ctx **Context**</i>)
+  
+    This function takes canvas context and be ready for drawing in it, you maybe prepare canvas before use see [ChartCore](https://github.com/ChartsLab/) for more details. **Warn** you can't give this function any thing except canvas context or you will have raise an error for more details about errors see [ErrorHandler](https://github.com/ChartsLab/).
+    
+
 * [Areas](#areas)
 * [Bars](#bars)
 
   Bars(Intervals) is one of common-used plots and primitives in data visualization. And here in chartsLab we simplified bars in some API easy to use functions that you can control the plot with it.
 
-  **Requires** Scale For data Scaling and mapping, and maybe data-filter for easy to invoke datasets
+  **Requires** Scale For data Scaling and mapping, and maybe data-filter for easy to invoke datasets.
 
   ```js
         Geometry.Bar.
