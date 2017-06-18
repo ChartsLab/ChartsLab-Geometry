@@ -33,7 +33,7 @@ var line = Geometry.Line
   **Requires** Scale For data Scaling and mapping, and maybe data-filter for easy to invoke datasets.
   
   ```js
-        Geo.Arc()
+        Geometry.Arc()
             .Position([200,200])
             .Frequency(100)
             .Values([30,30,30,10])
@@ -52,13 +52,20 @@ var line = Geometry.Line
     This function takes canvas context and be ready for drawing in it, you maybe prepare canvas before use see [ChartCore](https://github.com/ChartsLab/) for more details. **Warn** you can't give this function any thing except canvas context or you will have raise an error for more details about errors see [ErrorHandler](https://github.com/ChartsLab/).
   
   <a name="Draw" href="#draw">#</a> Arc.<b>Draw</b>(<i> ctx **Context**</i>)
+  
   <a name="Frequency" href="#frequency">#</a> Arc.<b>Frequency</b>(<i> freq **Integer**</i>)
+  
   <a name="Position" href="#position">#</a> Arc.<b>Position</b>(<i>[StartPoint **Array**], [EndPoint **Array**]</i>)
+  
   <a name="Radius" href="#radius">#</a> Arc.<b>Radius</b>(<i> rad **Integer**</i>)
+  
   <a name="InnerRadius" href="#innerRadius">#</a> Arc.<b>InnerRadius</b>(<i> rad **Integer**</i>)
+  
   <a name="Values" href="#values">#</a> Arc.<b>Values</b>(<i>[dataValues **Array**]</i>)
+  
   <a name="Colors" href="#colors">#</a> Arc.<b>Colors</b>(<i>[colorsValues **Array**]</i>)
-  <a name="Centeroid" href="#centeroid">#</a> Arc.<b>Centeroid</b>(<i> funcCallback **Function**</i>)
+  
+  <a name="Centeroid" href="#centeroid">#</a> Arc.<b>Centeroid</b>(<i> funcCallback **Function**</i>)
     
 * [Areas](#areas)
 * [Bars](#bars)
